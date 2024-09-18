@@ -1,0 +1,20 @@
+<!--
+  @description       : 
+  @author            : Ibou KA
+  @group             : 
+  @last modified on  : 09-18-2024
+  @last modified by  : Ibou KA
+-->
+<apex:page>
+    <apex:pageBlock title="Ancien Thème" rendered="{!$User.UIThemeDisplayed == 'Theme2'}">
+        Contenu pour l’interface Salesforce Classic 2005
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Thème Classique" rendered="{!$User.UIThemeDisplayed == 'Theme3'}">
+        Contenu pour l’interface Salesforce Classic 2010
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Lightning" rendered="{!$User.UIThemeDisplayed == 'Theme4d'}">
+        Contenu pour Lightning Experience
+    </apex:pageBlock>
+</apex:page>

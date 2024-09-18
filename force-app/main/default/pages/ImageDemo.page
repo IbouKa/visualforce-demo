@@ -1,0 +1,11 @@
+<!--
+  @description       : 
+  @author            : Ibou KA
+  @group             : 
+  @last modified on  : 09-18-2024
+  @last modified by  : Ibou KA
+-->
+<apex:page showHeader="false">
+
+  <apex:image alt="salesforce logo" url="https://developer.salesforce.com/files/salesforce-developer-network-logo.png" />
+</apex:page>
